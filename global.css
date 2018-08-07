@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url("./chain-690088_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+.panel{
+    border: 0px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    transition: 1s;
+
+}
+h4{
+    margin: 0;
+    padding: 0;
+    color: #F9DF05;
+
+}
+span{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #ffff;
+    display: inline-block;
+    text-align: center;
+    -webkit-webkit: border radius 4px;
+    -moz-webkit: border radius 4px;
+    -ms-webkit: border radius 4px;
+    -o-webkit: border radius 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius:4px ;
+    border-radius: 4px;
+    margin-left: 10px;
+    -webkit-box-shadow: -10px 10px 10px rgba(0,0,0,0.5);
+}
+.fa-facebook-square{
+    color: #3B5998;
+}
+.fa-twitter{
+    color: #1DA1F2;
+}
+.fa-google-plus-g{
+    color: red;
+}
+.lock{
+    font-size: 30px;
+    position: absolute;
+    top: -50px;
+    width: 100px;
+    height: 100px;
+    line-height: 101px;
+    text-align: center;
+    left: 37%;
+    background: linear-gradient(DarkSlateGrey,Cyan);
+    background: -webkit-linear-gradient(DarkSlateGrey,Cyan);
+    background:  -moz-linear-gradient(DarkSlateGrey,cyan);
+    border: 3px outset #F4E10A;
+    -webkit-webkit-radius:100%;
+    -moz-webkit-radius:  100%;
+    -ms-webkit-radius:100%;
+    -o-webkit-radius:100%;
+    border-radius: 100%;
+}
+.panel:hover{
+    background: rgba(0,0,0, 0.7)
+}
+.label{
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    color:#fff;
+    transform: rotate(-20deg);
+    background: red;
+    -webkit-box-shadow:3px 3px;
+    box-shadow: 3px 3px;
+
+}
+.label2{
+    position: absolute;
+    top: 0px;
+    left: -18px;
+    width: 130px;
+    height: 40px;
+    line-height: 35px;
+    color:#fff;
+    transform: rotate(-25deg);
+    background:#8E4E81;
+
+}
